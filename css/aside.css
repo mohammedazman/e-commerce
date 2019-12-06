@@ -1,0 +1,43 @@
+
+.col-md-3{float: left;
+}
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float:left;
+}
+.ec-filters-menu{
+float: left;}
+h3,.h3  {
+    font-size: 30px;
+    color:#BBB;
+}
+h4,.h4{ 
+    color:#BBB;
+    font-size:20px;
+}
+
+.ec-filters-menu ul {
+    padding-left:15px;
+    list-style-type: none;
+	color:#000;
+}
+.ec-filters-menu ul li a.active
+{
+	    border-color:  #E41B17;
+    color: #E41B17;
+}
+.ec-filters-menu ul li a:hover
+{
+	
+	border-color:  #333;
+	color: blue;
+   
+}
+.ec-filters-menu ul li a {
+    display: block;
+    color:#333;
+    border-left: solid 3px #ddd;
+    padding-left: 15px;
+    text-decoration: none;
+	font-size:18px;
+}

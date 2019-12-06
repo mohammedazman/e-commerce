@@ -1,0 +1,25 @@
+/* Start media Query */
+/* from 0 to  mobile  in smart phone and tablet  */
+
+@media (max-width:767px)
+{
+	.navbar-inverse .navbar-nav > li > a
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	.subscribe .form-control
+	{
+		margin:20px auto;
+		width:400px;
+	}
+	
+	.navbar-fixed-top .navbar-collapse, 
+	.navbar-fixed-bottom .navbar-collapse
+	{
+		max-height:none;
+	}
+	
+}
+
